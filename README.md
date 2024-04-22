@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://cwmkt.com.br/wp-content/uploads/2024/02/logo-header.png" alt="DispZap Whats Marketing" width="240" />
+<img src="https://cwmkt.com.br/wp-content/uploads/2024/04/logo_github.png" width="240" />
 <p align="center">Seja bem-vindo ao Guia de Instalação Agentes Portainer 🚀</p>
 </p>
   
