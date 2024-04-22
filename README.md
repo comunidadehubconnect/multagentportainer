@@ -1,4 +1,4 @@
-Acesse painel portainer que sera instalado Portainer ( Principal Portainer )
+Acesse painel portainer ( Principal Portainer )
 
 Nevegue até Environments > add environment
 
@@ -9,11 +9,11 @@ Docker Swarm > Start Wizard
 ![image](https://github.com/cwmkt/serverportainer/assets/91642837/321cf61a-63b9-4beb-abcf-1d6f8a83ae59)
 
 
-agente
+Agente
 
 ![image](https://github.com/cwmkt/serverportainer/assets/91642837/87e08495-d553-4e69-9f4c-97cd574f0a59)
 
-Copio codigo para colar na segunda maquina
+Copio codigo na aba (Linux & Windows WSL) para colar na segunda maquina
 
 Conectar segunda maquina 
 
@@ -25,9 +25,9 @@ docker swarm init
 
 Execute codigo 
 
+Linux & Windows WSL
 
+Volto server 1 e coloque as informações 
 
-Volto server 1 e coloco as informações 
-
-Name: SegundoServer
-Environment address: ip:9001
+Name: SegundoServer ( Nome Server )
+Environment address: ip:9001 ( IP do servidor seguido 9001 )
