@@ -31,3 +31,5 @@ Volto server 1 e coloque as informações
 
 Name: SegundoServer ( Nome Server )
 Environment address: ip:9001 ( IP do servidor seguido 9001 )
+
+![image](https://github.com/cwmkt/serverportainer/assets/91642837/52f0a29b-2692-41a0-a35a-257e28cee947)
