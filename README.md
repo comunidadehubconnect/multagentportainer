@@ -12,6 +12,11 @@
 <hr />
 <hr />
 
+### Como conectar vários servidores em apenas uma instancia do Portainer
+
+![image](https://github.com/cwmkt/serverportainer/assets/34479816/5c721729-9b9f-46b3-9a36-bde1f25af0cc)
+
+
 ## PASSO 01: Servidor que vai ser instalado o Agente
 Necessario ter docker instalado na máquina 
 
