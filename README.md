@@ -12,9 +12,20 @@
 <hr />
 <hr />
 
-### PASSO 01: Servidor principal Portainer
+## PASSO 01: Servidor que vai ser instalado o Agente
+Necessario ter docker instalado na máquina 
+
+```bash
+apt install docker.io
+```
+
+```bash
+docker swarm init
+```
+
+### PASSO 02: Servidor principal Portainer
   
-Acesse painel portainer ( Principal Portainer )
+Acesse painel Portainer ( Principal Portainer )
 
 Nevegue até Environments > add environment
 
@@ -25,32 +36,19 @@ Docker Swarm > Start Wizard
 ![image](https://github.com/cwmkt/serverportainer/assets/91642837/321cf61a-63b9-4beb-abcf-1d6f8a83ae59)
 
 
-Agente
+Escolha o tipo de conexão `Agent`
 
 ![image](https://github.com/cwmkt/serverportainer/assets/91642837/87e08495-d553-4e69-9f4c-97cd574f0a59)
 
-Copio codigo na aba (Linux & Windows WSL) para colar na segunda maquina
+Copie o código na aba `(Linux & Windows WSL)` para colar na segunda maquina
 
-Conectar segunda maquina 
+Execute codigo gerado na opção `(Linux & Windows WSL)` na segunda máquina
 
-## PASSO 01: Servidor principal Portainer
-Necessario ter docker instalado na segunda máquina 
-
-```bash
-apt install docker.io
-```
-
-```bash
-docker swarm init
-```
-
-Execute codigo gerado na opção anterior
-
-Linux & Windows WSL
-
-Volte ao `SERVIDOR_PRINCIPAL` e coloque as informações 
+Volte ao `SERVIDOR_PRINCIPAL` e insira as informações: 
 
 Name: SegundoServer ( Nome Server )<br>
 Environment address: ip:9001 ( IP do servidor seguido 9001 )
 
 ![image](https://github.com/cwmkt/serverportainer/assets/91642837/52f0a29b-2692-41a0-a35a-257e28cee947)
+
+**Pronto tudo Funcionando** ✅😎
